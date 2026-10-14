@@ -1,0 +1,75 @@
+VIDEOS DE AFILIADOS — CAMACOL SANTANDER
+=======================================
+
+Esta carpeta produce los capítulos de «Afiliados que construyen historias de éxito»:
+entrevistas de dos minutos con la línea gráfica de la serie, listas para publicar.
+
+Funciona en Mac con chip Apple (M1 o posterior). Puedes ponerle a esta carpeta el nombre
+que quieras y guardarla donde quieras.
+
+
+LA PRIMERA VEZ (una sola vez por Mac)
+-------------------------------------
+
+1. Haz clic derecho sobre  instalar.command  y elige «Abrir».
+   Saldrá un aviso; dale a «Abrir» otra vez.
+
+   La primera vez NO le des doble clic: macOS lo bloquea porque el archivo viene de otro
+   Mac. A partir de ahí el doble clic funciona normal.
+
+   No pide contraseña. Necesita internet y baja unos 3 GB, así que puede tardar de 10 a
+   30 minutos. Al final tiene que decir «Listo». Si dice FALTA, vuelve a abrirlo: retoma
+   donde se quedó.
+
+2. Abre Codex en ESTA carpeta (la que tiene este archivo).
+
+   - Si te pregunta si confías en la carpeta, di que SÍ.
+   - Pon los permisos en «Acceso total» («Full access»).
+
+   Es imprescindible: el programa que transcribe la entrevista usa la tarjeta gráfica del
+   Mac, y en el modo protegido de Codex no puede. Si se te olvida, Codex te lo va a avisar
+   en el primer paso.
+
+
+CADA CAPÍTULO
+-------------
+
+1. Duplica la carpeta  _PLANTILLA CAPITULO  y ponle el nombre del afiliado.
+
+2. Mete los videos de la entrevista en «Entrevista», numerados en orden:
+      1 - Cómo inicia la empresa.mp4
+      2 - Dónde están ubicados.mp4
+
+3. Si hay video de obra, renders o fotos, mételos en «Apoyo». Es opcional, pero cambia
+   mucho el resultado: se ven mientras la persona habla.
+
+4. Deja el logo del afiliado suelto en la carpeta, en PNG con fondo transparente.
+
+5. En Codex, copia la carpeta del capítulo y pégala en el chat.
+
+El video terminado aparece dentro de esa misma carpeta, en «video terminado y editables».
+
+
+TEN A MANO
+----------
+
+   · Nombre completo del afiliado
+   · Nombre y cargo de quien habla, escrito como quiere que salga en pantalla
+   · Usuario de Facebook, y el de Instagram: el que empieza por @ y aparece debajo de la
+     foto del perfil, no el nombre de la empresa
+
+
+CUÁNTO TARDA
+------------
+
+Unos 25 minutos de máquina por capítulo, y Codex te va a pedir que revises dos cosas por
+el camino: qué frases entran, y cómo suenan los empalmes.
+
+
+SI ALGO FALLA
+-------------
+
+Casi siempre se arregla con una de estas dos cosas:
+
+   · Volver a abrir  instalar.command  (no borra nada: completa lo que falte).
+   · Revisar que Codex esté en «Acceso total».

@@ -1,0 +1,16 @@
+# Solo se versiona el paquete. Todo lo demás que aparezca en esta carpeta —los capítulos con
+# sus videos, .entorno/ (3 GB que deja instalar.command) y _archivos temporales/— se queda
+# fuera, para que nunca se suba un video ni el entorno por accidente.
+/*
+!/.gitignore
+!/.agents/
+!/.codex/
+!/AGENTS.md
+!/CLAUDE.md
+!/EMPIEZA AQUÍ.txt
+!/instalar.command
+!/_PLANTILLA CAPITULO/
+
+.DS_Store
+__pycache__/
+*.pyc

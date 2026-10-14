@@ -1,0 +1,6 @@
+# Configuración de Codex para esta carpeta. Codex solo la aplica si la persona marcó la
+# carpeta como «de confianza» la primera vez que la abrió.
+#
+# La skill necesita «Acceso total»: whisper transcribe con la GPU del Mac, y en el modo
+# protegido de Codex macOS no deja usarla. Sin esto, el primer paso del capítulo falla.
+sandbox_mode = "danger-full-access"

@@ -1,0 +1,16 @@
+Aquí va el material de apoyo, y es opcional.
+
+Sirven videos de obra, renders, fotos de proyectos — cualquier cosa que muestre lo que hace
+la empresa. Se ven mientras la persona sigue hablando, así que convierten dos minutos de
+plano fijo en un video que enseña algo.
+
+Formatos: video (.mp4, .mov) y fotos (.jpg, .png).
+
+Ponles de nombre lo que muestran («aérea de la obra.mp4», «render torre 3.jpg»). Eso ayuda a
+decidir sobre qué frase va cada uno.
+
+El sonido de estos videos no se usa: debajo sigue oyéndose la entrevista.
+
+Si no hay material de apoyo, deja esta carpeta vacía. No pasa nada.
+
+Puedes borrar este archivo.

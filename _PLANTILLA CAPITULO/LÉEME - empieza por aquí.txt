@@ -1,0 +1,26 @@
+CÓMO PREPARAR UN CAPÍTULO
+=========================
+
+1. Duplica esta carpeta y ponle el nombre del afiliado.
+      Constructora Ejemplo
+
+2. Mete los videos de la entrevista en «Entrevista», numerados:
+      1 - Cómo inicia la empresa.mp4
+      2 - Dónde están ubicados.mp4
+
+3. Si hay material de obra, renders o fotos, mételos en «Apoyo». Es opcional.
+
+4. Deja el logo del afiliado suelto aquí, en esta carpeta.
+   PNG con fondo transparente, por favor: un logo sacado de una captura se nota.
+
+5. Copia esta carpeta y pégala en el chat de Codex (abierto en la carpeta principal,
+   con los permisos en «Acceso total»).
+
+Ten a mano estos datos, que te los va a preguntar:
+
+   - Nombre completo del afiliado
+   - Nombre y cargo de quien habla, escrito como quiere que salga en pantalla
+   - Usuario de Facebook, y el de Instagram (el que empieza por @, no el nombre
+     de la empresa)
+
+El video terminado aparecerá aquí mismo, en una carpeta «video terminado y editables».

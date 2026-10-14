@@ -1,0 +1,17 @@
+Aquí van los videos de la entrevista, uno por pregunta.
+
+Numéralos en el orden en que van a aparecer y ponles de nombre el tema:
+
+    1 - Cómo inicia la empresa.mp4
+    2 - Dónde están ubicados.mp4
+    3 - Qué proyectos tienen.mp4
+    ...
+    6 - Redes sociales.mp4
+
+El número es lo importante: de ahí sale el orden del video. El texto ayuda a saber de qué
+trata cada toma.
+
+Si las tomas llegaron con otro nombre, renómbralas. Si no puedes, déjalas como estén y dilo:
+el orden se puede deducir escuchándolas, solo toma un poco más.
+
+Puedes borrar este archivo.

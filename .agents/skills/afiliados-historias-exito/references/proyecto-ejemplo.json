@@ -1,0 +1,169 @@
+{
+  "_comentario": "Capítulo de Segen FP Inversiones, agosto 2026. Sirve de plantilla: copia este archivo a la carpeta del capítulo nuevo, cámbiale los datos del afiliado y reescribe la lista de segmentos a partir de trabajo/transcripcion.txt. Las rutas son relativas a la carpeta donde vive este JSON.",
+  "afiliado": "SEGEN FP INVERSIONES S.A.S.",
+  "afiliado_corto": "Segen FP",
+  "logo_afiliado": "insumos/segen-logo.png",
+  "vocero": {
+    "nombre": "MARÍA FERNANDA PÉREZ",
+    "cargo": "Representante legal"
+  },
+  "redes": {
+    "facebook": "Segen FP Inversiones",
+    "instagram": "segenfpinversiones"
+  },
+  "carpeta_tomas": "Insumo principal",
+  "carpeta_trabajo": "trabajo",
+  "carpeta_salida": "Entrega",
+  "duracion_maxima": 130,
+  "preguntas": [
+    "¿Cómo inicia SEGEN FP INVERSIONES S.A.S.?",
+    "¿En dónde se encuentran sus sedes?",
+    "¿Cuál consideran es su mayor diferencial\nrespecto a la competencia dentro del sector?",
+    "¿Cómo han evolucionado sus proyectos para\nresponder a las necesidades del mercado?",
+    "¿Qué impacto ha tenido su afiliación a Camacol\nSantander en su estrategia de negocio?"
+  ],
+  "_comentario_segmentos": "bloque = índice de la pregunta (0-4) o \"redes\" para el cierre. La cenefa entra en el primer segmento de cada bloque. entrada/salida son segundos dentro de la toma; deja al menos 0.22 s de aire antes de la primera palabra y después de la última. texto es lo que se dice, y verificar.py lo usa para comprobar que la disolvencia no se comió nada.",
+  "segmentos": [
+    {
+      "archivo": "WhatsApp Video 2026-07-29 at 4.21.52 PM.mp4",
+      "entrada": 1.1,
+      "salida": 6.3,
+      "bloque": 0,
+      "texto": "Segen nace de un sueño familiar, nació en el corazón de mi papá"
+    },
+    {
+      "archivo": "WhatsApp Video 2026-07-29 at 4.21.52 PM.mp4",
+      "entrada": 8.67,
+      "salida": 15.63,
+      "bloque": 0,
+      "texto": "el nombre tiene un significado especial, significa bendición de la familia"
+    },
+    {
+      "archivo": "WhatsApp Video 2026-07-29 at 4.21.52 PM.mp4",
+      "entrada": 16.18,
+      "salida": 19.39,
+      "bloque": 0,
+      "texto": "cada petalito corresponde a un hijo"
+    },
+    {
+      "archivo": "WhatsApp Video 2026-07-29 at 4.21.52 PM.mp4",
+      "entrada": 29.04,
+      "salida": 31.84,
+      "bloque": 0,
+      "texto": "y también nace de la opción de"
+    },
+    {
+      "archivo": "WhatsApp Video 2026-07-29 at 4.21.52 PM.mp4",
+      "entrada": 32.16,
+      "salida": 37.06,
+      "bloque": 0,
+      "texto": "tener una vivienda digna en el municipio de Lebrija, que nos ha visto crecer"
+    },
+    {
+      "archivo": "WhatsApp Video 2026-07-29 at 4.22.44 PM.mp4",
+      "entrada": 1.05,
+      "salida": 12.34,
+      "bloque": 1,
+      "texto": "Segen tiene presencia en Bucaramanga, proyectos en el municipio de Lebrija"
+    },
+    {
+      "archivo": "WhatsApp Video 2026-07-29 at 4.27.24 PM.mp4",
+      "entrada": 0.69,
+      "salida": 10.46,
+      "bloque": 2,
+      "texto": "participación en el mercado con el proyecto Granadillo, casas y lotes de interés social y prioritario"
+    },
+    {
+      "archivo": "WhatsApp Video 2026-07-29 at 4.27.24 PM.mp4",
+      "entrada": 10.37,
+      "salida": 15.56,
+      "bloque": 2,
+      "texto": "la gente ya no quería estar más en apartamentos, por eso nace esta necesidad de"
+    },
+    {
+      "archivo": "WhatsApp Video 2026-07-29 at 4.27.24 PM.mp4",
+      "entrada": 16.56,
+      "salida": 22.55,
+      "bloque": 2,
+      "texto": "crear vivienda tipo casa y también el lote para que la persona pueda construir"
+    },
+    {
+      "archivo": "WhatsApp Video 2026-07-29 at 4.27.24 PM.mp4",
+      "entrada": 23.32,
+      "salida": 24.99,
+      "bloque": 2,
+      "texto": "la casa de sus sueños"
+    },
+    {
+      "archivo": "WhatsApp Video 2026-07-29 at 4.27.24 PM.mp4",
+      "entrada": 27.7,
+      "salida": 37.03,
+      "bloque": 2,
+      "texto": "el tema del precio, precios más económicos y el parqueadero uno a uno"
+    },
+    {
+      "archivo": "WhatsApp Video 2026-07-29 at 4.33.03 PM.mp4",
+      "entrada": 1.9,
+      "salida": 11.95,
+      "bloque": 3,
+      "texto": "Segen pendiente de las necesidades del mercado, en Lebrija no hay muchos lanzamientos"
+    },
+    {
+      "archivo": "WhatsApp Video 2026-07-29 at 4.33.03 PM.mp4",
+      "entrada": 12.56,
+      "salida": 14.87,
+      "bloque": 3,
+      "texto": "adicionalmente el tema campestre"
+    },
+    {
+      "archivo": "WhatsApp Video 2026-07-29 at 4.33.03 PM.mp4",
+      "entrada": 15.14,
+      "salida": 20.59,
+      "bloque": 3,
+      "texto": "la necesidad de estar cerca de la zona verde"
+    },
+    {
+      "archivo": "WhatsApp Video 2026-07-29 at 4.33.03 PM.mp4",
+      "entrada": 20.27,
+      "salida": 24.86,
+      "bloque": 3,
+      "texto": "con más tranquilidad, eso es lo que hemos estado buscando e integrando"
+    },
+    {
+      "archivo": "WhatsApp Video 2026-07-29 at 4.35.43 PM.mp4",
+      "entrada": 0.83,
+      "salida": 6.78,
+      "bloque": 4,
+      "texto": "la alianza con Camacol Santander nos ha ayudado en relacionamiento comercial"
+    },
+    {
+      "archivo": "WhatsApp Video 2026-07-29 at 4.35.43 PM.mp4",
+      "entrada": 6.96,
+      "salida": 13.92,
+      "bloque": 4,
+      "texto": "con clientes por medio de Expo Vivienda y en los eventos del gremio"
+    },
+    {
+      "archivo": "WhatsApp Video 2026-07-29 at 4.35.43 PM.mp4",
+      "entrada": 17.95,
+      "salida": 23.68,
+      "bloque": 4,
+      "texto": "el contacto con proveedores y capacitaciones que nos ayudan en los procesos"
+    },
+    {
+      "archivo": "WhatsApp Video 2026-07-29 at 4.39.22 PM.mp4",
+      "entrada": 0.82,
+      "salida": 12.28,
+      "bloque": "redes",
+      "texto": "estamos en Instagram y Facebook, ahí pueden encontrar todos nuestros proyectos. Gracias"
+    }
+  ],
+  "_comentario_broll": "Opcional. Tomas de apoyo en insumos/broll/ (video o fotos) que sustituyen la imagen mientras sigue sonando la entrevista. 'segmento' es el índice en 'segmentos' al que se ancla, 'desde' los segundos desde que ese segmento arranca, 'entrada' el punto de entrada dentro del archivo de apoyo, y 'ajuste' (llenar|encajar) se decide solo por la proporción si se omite. Este capítulo no tuvo material de apoyo.",
+  "broll": [],
+  "_comentario_cortes": "Puntos de corte colocados midiendo la energía real del audio con ajustar_cortes.py, no con las marcas de whisper: esas se adelantan al final de la palabra y el corte cae dentro del sonido.",
+  "_comentario_musica": "Opcional. Si hay pistas en assets/musica/ el capítulo sale con música y la skill elige una a partir del nombre del afiliado. Para forzar otra, pon su ruta en 'pista' (relativa a este archivo). 'ganancia' ajusta el colchón en dB si una pista concreta queda alta o baja.",
+  "musica": {
+    "pista": null,
+    "ganancia": 0
+  }
+}
