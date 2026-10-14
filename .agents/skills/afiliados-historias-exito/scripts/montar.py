@@ -117,7 +117,7 @@ def main():
         print("\n  La verificación encontró algo. Léelo arriba antes de entregar.")
 
     titulo(9, "Preparar la entrega")
-    corre("fcpxml.py", ruta)
+    corre("exportar_xml.py", ruta)
 
     print(f"\n{'=' * 72}")
     print(f"  Capítulo montado.  Revisa dos cosas antes de darlo por bueno:")

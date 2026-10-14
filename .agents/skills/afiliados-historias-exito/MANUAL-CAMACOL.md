@@ -188,12 +188,15 @@ Dentro de la carpeta del capítulo, en **«video terminado y editables»**:
 | Archivo | Qué es |
 |---|---|
 | `<Afiliado> - ... 1080p.mp4` | el capítulo final, listo para publicar |
-| `<Afiliado> - proyecto editable.fcpxml` | la línea de tiempo, para reabrirla y cambiar cosas |
+| `<Afiliado> - proyecto editable.xml` | la línea de tiempo, para reabrirla y cambiar cosas |
 | `Graficos/` | las imágenes que usa el proyecto editable |
 | `Guion de edicion.md` | qué se cortó y por qué, y qué quedó pendiente de confirmar |
 
-El **FCPXML** apunta a los archivos originales, no al video renderizado: se abre en DaVinci
-Resolve, Final Cut Pro o Premiere y se puede cambiar cualquier corte. La carpeta `Graficos/`
+El **XML** apunta a los archivos originales, no al video renderizado, y se puede cambiar
+cualquier corte. Se abre en **Premiere Pro** (Archivo → Importar) y en **DaVinci Resolve**
+(Archivo → Importar → Línea de tiempo). Final Cut Pro no lo abre: es el XML de Final Cut 7,
+que es el que leen los otros dos. Los gráficos llegan ya colocados; lo que no viaja es su
+animación de entrada, ni la música: eso está en el MP4. La carpeta `Graficos/`
 tiene que viajar con él; si mandas el proyecto a alguien, manda la carpeta completa.
 
 Del `Guion de edicion.md`, las dos últimas secciones —los criterios y los pendientes— se

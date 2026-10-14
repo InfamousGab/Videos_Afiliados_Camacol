@@ -1,6 +1,6 @@
 ---
 name: afiliados-historias-exito
-description: Produce un capítulo de la serie de video "Afiliados que construyen historias de éxito" de Camacol Santander a partir de las tomas crudas de la entrevista a un afiliado — transcribe, decide qué entra y qué se cae, elimina silencios y muletillas, monta con cenefas de pregunta, lower third, tarjetas de redes, intro y cortinilla, y entrega el MP4 final más un FCPXML editable. Úsala SIEMPRE que pidan editar, montar, armar o producir un video de un afiliado de Camacol, un capítulo de "historias de éxito", o cuando entreguen tomas de una entrevista a un constructor/afiliado para convertirlas en un video con la línea gráfica de Camacol Santander — aunque no mencionen la serie por su nombre y solo digan "edítame estas tomas" o "sácame un video de dos minutos con esto".
+description: Produce un capítulo de la serie de video "Afiliados que construyen historias de éxito" de Camacol Santander a partir de las tomas crudas de la entrevista a un afiliado — transcribe, decide qué entra y qué se cae, elimina silencios y muletillas, monta con cenefas de pregunta, lower third, tarjetas de redes, intro y cortinilla, y entrega el MP4 final más un XML editable (Premiere / DaVinci Resolve). Úsala SIEMPRE que pidan editar, montar, armar o producir un video de un afiliado de Camacol, un capítulo de "historias de éxito", o cuando entreguen tomas de una entrevista a un constructor/afiliado para convertirlas en un video con la línea gráfica de Camacol Santander — aunque no mencionen la serie por su nombre y solo digan "edítame estas tomas" o "sácame un video de dos minutos con esto".
 ---
 
 # Afiliados que construyen historias de éxito
@@ -133,7 +133,7 @@ Constructora Ejemplo/          ← la carpeta del capítulo (la «carpeta madre�
 ├── Entrevista/                ← las tomas crudas, numeradas en orden
 ├── Apoyo/                     ← opcional: tomas de apoyo, renders, fotos
 ├── logo.png                   ← el logo del afiliado, suelto en la carpeta
-└── video terminado y editables/   ← el MP4, el FCPXML, Graficos/ y el guion
+└── video terminado y editables/   ← el MP4, el XML, Graficos/ y el guion
 
 _archivos temporales/Constructora Ejemplo/   ← al lado, no dentro: transcripción, gráficos,
                                                 intermedios (~1 GB); se puede borrar al final
@@ -368,7 +368,7 @@ fotograma de mitad de cada inserto: ahí se ve si el encaje dejó bandas o recor
 ### 7. Entrega
 
 ```bash
-$PY $S/fcpxml.py proyecto.json
+$PY $S/exportar_xml.py proyecto.json
 ```
 
 Deja en la carpeta de salida:
@@ -376,11 +376,11 @@ Deja en la carpeta de salida:
 | Archivo | Qué es |
 |---|---|
 | `<Afiliado> - Afiliados que construyen historias de exito 1080p.mp4` | el video final |
-| `<Afiliado> - proyecto editable.fcpxml` | timeline apuntando a **los originales**, no a los renders |
-| `Graficos/` | los PNG que el XML referencia — tiene que viajar junto al XML |
+| `<Afiliado> - proyecto editable.xml` | XML de Final Cut Pro 7 (xmeml): timeline apuntando a **los originales**, no a los renders. Lo importan Premiere Pro y DaVinci Resolve |
+| `Graficos/` | los PNG que el XML referencia, ya colocados a 1920x1080 — tiene que viajar junto al XML |
 | `Guion de edicion.md` | tabla de cortes, tiempos de cada gráfico y de cada toma de apoyo, criterios y pendientes |
 
-El `Guion de edicion.md` lo genera `fcpxml.py`, pero **escribe tú a mano su sección final de
+El `Guion de edicion.md` lo genera `exportar_xml.py`, pero **escribe tú a mano su sección final de
 pendientes**: qué datos quedaron sin confirmar (nombre del vocero, origen del logo), qué
 limitaciones tuvo el material (resolución de las tomas) y qué se podría mejorar con mejores
 insumos. Es lo primero que lee quien recibe el video.

@@ -88,7 +88,7 @@ siempre. No los inventes: el rótulo va sobreimpreso sobre la cara de una person
 
 ## Qué se entrega
 
-Dentro de la carpeta del capítulo, en «video terminado y editables»: el MP4, un FCPXML que
-apunta a los archivos originales, la carpeta `Graficos/` que el XML necesita, y
+Dentro de la carpeta del capítulo, en «video terminado y editables»: el MP4, un XML editable
+(Premiere / DaVinci) que apunta a los archivos originales, la carpeta `Graficos/` que el XML necesita, y
 `Guion de edicion.md`. De ese guion, **las dos últimas secciones se escriben a mano**: qué se
 cortó y por qué, y qué quedó sin confirmar.

@@ -1,5 +1,27 @@
 # Versiones
 
+## 1.2 — octubre de 2026: el editable pasa a XML
+
+El proyecto editable deja de ser FCPXML y pasa a ser **XML de Final Cut Pro 7** (xmeml), que
+es lo que la mayoría de editores llama «el XML»: lo importan **Premiere Pro** y **DaVinci
+Resolve**. Premiere no abría el FCPXML sin un conversor, aunque la documentación decía que sí.
+Final Cut Pro (el actual) no lee este formato; si algún día hace falta, se puede generar
+también el FCPXML.
+
+Al rehacerlo salieron dos defectos que ya traía el FCPXML:
+
+- **Los gráficos no llevaban posición.** Los PNG son pequeños (la tarjeta de Instagram mide
+  417x140) y se colocan en el render, así que en el editable aparecían todos centrados. Ahora
+  se entregan ya colocados sobre un PNG transparente de 1920x1080: caen en su sitio en
+  cualquier editor sin depender de cómo interprete las coordenadas.
+- **Las tomas que no son 1080p no se escalaban** (las de WhatsApp, 848x478, se habrían visto
+  pequeñas), y la cortinilla vertical tampoco. Ahora llevan su escala, igual que en el render.
+
+`exportar_xml.py` sustituye a `fcpxml.py`. Validado leyendo de vuelta los XML de A1S y Segen
+con OpenTimelineIO: entradas a menos de medio fotograma del proyecto, transiciones y gráficos
+en su sitio. No viajan la animación de entrada de los gráficos, el color, el tratamiento de
+audio ni la música: eso está en el MP4.
+
 ## 1.1 — octubre de 2026: que salga igual en otro Mac, con Codex
 
 La 1.0 funcionaba en el Mac donde se escribió. Probada dentro del sandbox real de Codex, con
